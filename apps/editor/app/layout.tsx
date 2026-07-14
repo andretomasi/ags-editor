@@ -1,5 +1,6 @@
 import { Agentation } from 'agentation'
 import { GeistPixelSquare } from 'geist/font/pixel'
+import type { Metadata } from 'next'
 import { Barlow } from 'next/font/google'
 import localFont from 'next/font/local'
 import { ClientBootstrap } from './client-bootstrap'
@@ -21,6 +22,14 @@ const barlow = Barlow({
   display: 'swap',
 })
 
+export const metadata: Metadata = {
+  title: {
+    default: 'AGS Editor',
+    template: '%s | AGS Editor',
+  },
+  description: 'Editor 2D/3D para estruturas Light Steel Frame e sistemas construtivos.',
+}
+
 export default function RootLayout({
   children,
 }: Readonly<{
@@ -29,7 +38,7 @@ export default function RootLayout({
   return (
     <html
       className={`${geistSans.variable} ${geistMono.variable} ${GeistPixelSquare.variable} ${barlow.variable}`}
-      lang="en"
+      lang="pt-BR"
     >
       <head>
         {process.env.NODE_ENV === 'development' && (

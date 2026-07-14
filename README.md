@@ -1,6 +1,10 @@
-# Pascal Editor
+# AGS Editor
 
-A 3D building editor built with React Three Fiber and WebGPU.
+Editor 2D/3D para estruturas Light Steel Frame e sistemas construtivos, baseado no
+[Pascal Editor](https://github.com/pascalorg/editor).
+
+O objetivo deste fork é combinar a estrutura importada dos formatos AgilSteel com
+paredes, revestimentos, pisos, forros, coberturas e demais camadas da edificação.
 
 [![MIT License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
 [![npm @pascal-app/core](https://img.shields.io/npm/v/@pascal-app/core?label=%40pascal-app%2Fcore)](https://www.npmjs.com/package/@pascal-app/core)

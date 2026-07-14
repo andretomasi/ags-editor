@@ -1,5 +1,5 @@
 {
-  "name": "editor",
+  "name": "ags-editor",
   "private": true,
   "scripts": {
     "build": "turbo run build",

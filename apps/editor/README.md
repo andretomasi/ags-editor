@@ -1,6 +1,6 @@
-# Pascal Editor
+# AGS Editor
 
-A 3D building editor built with React Three Fiber and WebGPU.
+Aplicação web 2D/3D do AGS Editor, construída com React Three Fiber e WebGPU.
 
 ## Repository Architecture
 

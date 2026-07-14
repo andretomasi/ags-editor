@@ -1,4 +1,4 @@
-# Pascal Editor — Setup
+# AGS Editor — Setup
 
 ## Prerequisites
 
